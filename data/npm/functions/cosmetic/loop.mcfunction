@@ -1,0 +1,1 @@
+execute as @a[tag=NPM_win_trail] at @s run function npm:cosmetic/win_trail

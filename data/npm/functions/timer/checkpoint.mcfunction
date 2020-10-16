@@ -1,0 +1,2 @@
+function npm:timer/convert
+title @s actionbar ["",{"score":{"name":"Tmin","objective":"NPM_Timer"},"bold":true,"color":"black"},{"text":":","color":"gray"},{"score":{"name":"Tsec","objective":"NPM_Timer"},"bold":true,"color":"black"},{"text":",","color":"gray"},{"score":{"name":"Tmsec","objective":"NPM_Timer"},"bold":true,"color":"black"}]

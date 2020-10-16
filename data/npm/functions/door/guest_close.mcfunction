@@ -1,0 +1,2 @@
+execute positioned 24 53 8 unless block 24 53 8 minecraft:red_stained_glass_pane run function npm:door/sound_close
+execute positioned 24 53 8 unless block 24 53 8 minecraft:red_stained_glass_pane run fill ~ ~3 ~1 ~ ~ ~-1 minecraft:red_stained_glass_pane[north=true,south=true]

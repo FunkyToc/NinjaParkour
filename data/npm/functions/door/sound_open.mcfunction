@@ -1,0 +1,1 @@
+playsound minecraft:ui.stonecutter.take_result player @a[distance=..16] ~ ~1 ~ 2 0.8 0.5

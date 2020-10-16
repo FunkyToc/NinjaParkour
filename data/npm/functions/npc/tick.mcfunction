@@ -1,0 +1,1 @@
+execute at @e[tag=npc] as @a[distance=..8] at @s run function npm:npc/loop

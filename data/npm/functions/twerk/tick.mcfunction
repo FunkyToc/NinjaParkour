@@ -1,0 +1,1 @@
+execute positioned 18 54 -2 if entity @a[distance=..8] run function npm:twerk/loop

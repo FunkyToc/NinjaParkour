@@ -1,0 +1,1 @@
+tag @a[gamemode=!adventure] add cheatmod

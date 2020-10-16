@@ -1,0 +1,2 @@
+execute positioned 24 53 8 unless block 24 53 8 minecraft:air run function npm:door/sound_open
+execute positioned 24 53 8 unless block 24 53 8 minecraft:air run fill ~ ~3 ~1 ~ ~ ~-1 minecraft:air replace

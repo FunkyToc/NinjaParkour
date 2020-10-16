@@ -1,0 +1,1 @@
+execute as @a at @s if entity @e[tag=hud,distance=..10] run function npm:hud/loop

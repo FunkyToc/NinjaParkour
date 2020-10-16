@@ -1,0 +1,5 @@
+execute if entity @s[tag=n3] unless score @e[type=minecraft:armor_stand,tag=t2,distance=..3,sort=nearest,limit=1] NPM_Timer matches -1 run setblock ~ 1 ~ minecraft:oak_sign{Text1:'[{"selector":"@e[tag=n2,distance=..5,sort=nearest,limit=1]","bold":true,"color":"#ffa884"}]'} replace
+execute if entity @s[tag=n3] unless score @e[type=minecraft:armor_stand,tag=t2,distance=..3,sort=nearest,limit=1] NPM_Timer matches -1 run data modify entity @s CustomName set from block ~ 1 ~ Text1
+execute if entity @s[tag=n2] unless score @e[type=minecraft:armor_stand,tag=t1,distance=..3,sort=nearest,limit=1] NPM_Timer matches -1 run setblock ~ 1 ~ minecraft:oak_sign{Text1:'[{"selector":"@e[tag=n1,distance=..5,sort=nearest,limit=1]","bold":true,"color":"#b4c6d6"}]'} replace
+execute if entity @s[tag=n2] unless score @e[type=minecraft:armor_stand,tag=t1,distance=..3,sort=nearest,limit=1] NPM_Timer matches -1 run data modify entity @s CustomName set from block ~ 1 ~ Text1
+setblock ~ 1 ~ air replace
