@@ -9,7 +9,13 @@ execute as @s[scores={npc_funkyfox=6}] if entity @e[tag=npc_funkyfox,distance=..
 execute as @s[scores={npc_funkyfox=7}] if entity @e[tag=npc_funkyfox,distance=..6,limit=1,sort=nearest] run function npm:npc/npcs/funkyfox/states/state7/state
 execute as @s[scores={npc_funkyfox=8}] if entity @e[tag=npc_funkyfox,distance=..6,limit=1,sort=nearest] run function npm:npc/npcs/funkyfox/states/state8/state
 execute as @s[scores={npc_funkyfox=9}] if entity @e[tag=npc_funkyfox,distance=..6,limit=1,sort=nearest] run function npm:npc/npcs/funkyfox/states/state9/state
-execute as @s[scores={npc_funkyfox=10}] if entity @e[tag=npc_funkyfox,distance=..6,limit=1,sort=nearest] run function npm:npc/npcs/funkyfox/states/state10/state10
+execute as @s[scores={npc_funkyfox=10}] if entity @e[tag=npc_funkyfox,distance=..6,limit=1,sort=nearest] run function npm:npc/npcs/funkyfox/states/state10/state
+execute as @s[scores={npc_funkyfox=11}] if entity @e[tag=npc_funkyfox,distance=..6,limit=1,sort=nearest] run function npm:npc/npcs/funkyfox/states/state11/state
+execute as @s[scores={npc_funkyfox=12}] if entity @e[tag=npc_funkyfox,distance=..6,limit=1,sort=nearest] run function npm:npc/npcs/funkyfox/states/state12/state
+execute as @s[scores={npc_funkyfox=13}] if entity @e[tag=npc_funkyfox,distance=..6,limit=1,sort=nearest] run function npm:npc/npcs/funkyfox/states/state13/state
+execute as @s[scores={npc_funkyfox=14}] if entity @e[tag=npc_funkyfox,distance=..6,limit=1,sort=nearest] run function npm:npc/npcs/funkyfox/states/state14/state
+execute as @s[scores={npc_funkyfox=15}] if entity @e[tag=npc_funkyfox,distance=..6,limit=1,sort=nearest] run function npm:npc/npcs/funkyfox/states/state15/state
+execute as @s[scores={npc_funkyfox=16}] if entity @e[tag=npc_funkyfox,distance=..6,limit=1,sort=nearest] run function npm:npc/npcs/funkyfox/states/state16/state
 
 ## Requires
 # Anti spam & timer

@@ -10,9 +10,6 @@ execute as @e[tag=npc_funkyfox,limit=1,sort=nearest,distance=..6] at @s run func
 function npm:npc/npcs/funkyfox/emotes/happy
 tag @s add player_talking
 
-# ACCESS tuto
-tag @s add NPM_access_tuto
-
 # reset
 scoreboard players set @s npc_proxi 0
 scoreboard players set @s npc_choice 0

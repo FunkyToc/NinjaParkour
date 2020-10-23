@@ -47,8 +47,8 @@ execute as StazixLS at @s unless entity @s[x=313,y=20,z=-55,dx=64,dy=80,dz=65] r
 #execute as X at @s if entity @s[x=337,y=20,z=7,dx=64,dy=100,dz=65,tag=!testmod] run gamemode creative @s
 #execute as X at @s unless entity @s[x=337,y=20,z=7,dx=64,dy=100,dz=65] run gamemode adventure @s
 
-execute as Manazaka at @s if entity @s[x=361,y=20,z=-55,dx=64,dy=150,dz=65,tag=!testmod] run gamemode creative @s
-execute as Manazaka at @s unless entity @s[x=361,y=20,z=-55,dx=64,dy=150,dz=65] run gamemode adventure @s
+execute as MANAZAKA_TS at @s if entity @s[x=361,y=20,z=-55,dx=64,dy=150,dz=65,tag=!testmod] run gamemode creative @s
+execute as MANAZAKA_TS at @s unless entity @s[x=361,y=20,z=-55,dx=64,dy=150,dz=65] run gamemode adventure @s
 
 #execute as @a at @s if entity @s[x=404,y=20,z=16,dx=54,dy=80,dz=55,tag=!testmod] run gamemode creative @s
 #execute as @a at @s unless entity @s[x=404,y=20,z=16,dx=54,dy=80,dz=55] run gamemode adventure @s

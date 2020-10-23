@@ -95,6 +95,8 @@ execute positioned -58 54.75 8 run summon minecraft:armor_stand ~ ~ ~ {CustomNam
 
 
 ## Classic
+execute positioned 8 55 -69 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"Pilar de Maestros","color":"white","bold":false}]',Tags:["hud","hud_es"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
+
 # Easy
 execute positioned 0 55.5 -70 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"Fácil","color":"gray","bold":true}]',Tags:["hud","hud_es"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned 0 55 -70 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"Lo es ?","color":"white","bold":false}]',Tags:["hud","hud_es"],CustomNameVisible:0b,Invisible:1b,Marker:1b}

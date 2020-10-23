@@ -1,3 +1,2 @@
 execute positioned 8 53 45 run scoreboard players set @a[distance=..6,tag=!NPM_access_tuto,scores={npc_funkyfox=3}] npc_funkyfox 4
 execute positioned -50 57 36 run scoreboard players set @a[distance=..1,tag=!NPM_access_classic,scores={npc_funkyfox=11}] npc_funkyfox 12
-execute positioned 8 54 -63 run scoreboard players set @a[distance=..1,tag=!NPM_access_guest,scores={npc_funkyfox=15}] npc_funkyfox 16

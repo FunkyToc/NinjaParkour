@@ -7,6 +7,5 @@ tellraw @s[tag=!lang_fr,tag=mood_ok] ["",{"text":"<FunkyFox>","color":"#be9dff"}
 tellraw @s[tag=!lang_fr,tag=mood_ko] ["",{"text":"<FunkyFox>","color":"#be9dff"},{"text":" Times might hurt, but be positive!"}]
 tellraw @s[tag=!lang_fr,tag=mood_bad] ["",{"text":"<FunkyFox>","color":"#be9dff"},{"text":" Let me clear something, boy! The true Ninja is always positive and happy."}]
 
-
-execute as @e[tag=npc_funkyfox,limit=1,sort=nearest,distance=..6] at @s run tp @s ~ ~.5 ~
+execute as @e[tag=npc_funkyfox,limit=1,sort=nearest,distance=..6] at @s run function npm:npc/npcs/funkyfox/emotes/jump
 tag @e[tag=npc_funkyfox,limit=1,sort=nearest,distance=..6] add npc_talking

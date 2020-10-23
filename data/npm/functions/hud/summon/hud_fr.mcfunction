@@ -95,6 +95,8 @@ execute positioned -58 54.75 8 run summon minecraft:armor_stand ~ ~ ~ {CustomNam
 
 
 ## Classic
+execute positioned 8 55 -69 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"Pilier des Maîtres","color":"white","bold":false}]',Tags:["hud","hud_fr"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
+
 # Easy
 execute positioned 0 55.5 -70 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"Facile","color":"gray","bold":true}]',Tags:["hud","hud_fr"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned 0 55 -70 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"si si, vraiment","color":"white","bold":false}]',Tags:["hud","hud_fr"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
@@ -183,7 +185,7 @@ execute positioned 355 55 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'
 execute positioned 379 55.5 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"???","color":"gray","bold":true}]',Tags:["hud","hud_fr"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned 379 55 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"par ???","color":"white","bold":false}]',Tags:["hud","hud_fr","loc","LOC_g15"],CustomNameVisible:0b,Invisible:1b,Marker:1b} 
 
-execute positioned 403 55.5 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"???","color":"gray","bold":true}]',Tags:["hud","hud_fr"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
+execute positioned 403 55.5 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"La Tour Labyrinthique","color":"gray","bold":true}]',Tags:["hud","hud_fr"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned 403 55 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"par Manazaka","color":"white","bold":false}]',Tags:["hud","hud_fr","loc","LOC_g16"],CustomNameVisible:0b,Invisible:1b,Marker:1b} 
 
 execute positioned 427 55.5 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"Parkour Ninja Incroyable du Cul","color":"gray","bold":true}]',Tags:["hud","hud_fr"],CustomNameVisible:0b,Invisible:1b,Marker:1b}

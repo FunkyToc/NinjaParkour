@@ -1,8 +1,4 @@
 # as player at player
-tellraw @s[tag=lang_fr] ["",{"text":"[Oui]","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger npc_choice set 1"}}]
-tellraw @s[tag=lang_fr] ["",{"text":"[Non, même pas en rêve]","bold":true,"color":"aqua","clickEvent":{"action":"run_command","value":"/trigger npc_choice set 2"}}]
-tellraw @s[tag=lang_fr] ["",{"text":"[C'est qui FankyTouc ?]","bold":true,"color":"dark_red","clickEvent":{"action":"run_command","value":"/trigger npc_choice set 3"}}]
-
-tellraw @s[tag=!lang_fr] ["",{"text":"[Yes]","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger npc_choice set 1"}}]
-tellraw @s[tag=!lang_fr] ["",{"text":"[No]","bold":true,"color":"aqua","clickEvent":{"action":"run_command","value":"/trigger npc_choice set 2"}}]
-tellraw @s[tag=!lang_fr] ["",{"text":"[Who's FankyTuck?]","bold":true,"color":"dark_red","clickEvent":{"action":"run_command","value":"/trigger npc_choice set 3"}}]
+tellraw @s[tag=lang_fr] ["",{"text":"<FunkyFox>","color":"#be9dff"},{"text":" Cependant je dois t'avertir, tu dois être très attentif pour cette mission."}]
+tellraw @s[tag=!lang_fr] ["",{"text":"<FunkyFox>","color":"#be9dff"},{"text":" However I must warn you, you must be very attentive for this mission."}]
+tag @e[tag=npc_funkyfox,limit=1,sort=nearest,distance=..6] add npc_talking
