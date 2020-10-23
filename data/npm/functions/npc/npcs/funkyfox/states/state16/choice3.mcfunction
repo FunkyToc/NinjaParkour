@@ -11,4 +11,4 @@ tag @s add question_ko
 # reset
 scoreboard players set @s npc_proxi 0
 scoreboard players set @s npc_choice 0
-#scoreboard players set @s npc_funkyfox 16
+#scoreboard players set @s npc_funkyfox 17

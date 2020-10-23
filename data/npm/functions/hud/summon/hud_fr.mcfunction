@@ -152,7 +152,7 @@ execute positioned 91 55 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'
 execute positioned 115 55.5 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"Yamata Kudasai","color":"gray","bold":true}]',Tags:["hud","hud_fr"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned 115 55 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"par CubiCraft","color":"white","bold":false}]',Tags:["hud","hud_fr","loc","LOC_g4"],CustomNameVisible:0b,Invisible:1b,Marker:1b} 
 
-execute positioned 139 55.5 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"Broken Nether","color":"gray","bold":true}]',Tags:["hud","hud_fr"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
+execute positioned 139 55.5 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"Bob et Raberlu","color":"gray","bold":true}]',Tags:["hud","hud_fr"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned 139 55 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"par Prince, Luto, Djix","color":"white","bold":false}]',Tags:["hud","hud_fr","loc","LOC_g5"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 
 execute positioned 163 55.5 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"???","color":"gray","bold":true}]',Tags:["hud","hud_fr"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
