@@ -26,3 +26,21 @@ execute if entity @e[type=minecraft:armor_stand,limit=1,sort=nearest,distance=..
 execute if entity @e[type=minecraft:armor_stand,limit=1,sort=nearest,distance=..3,tag=LOC_g15] run tag @s add LOC_g15
 execute if entity @e[type=minecraft:armor_stand,limit=1,sort=nearest,distance=..3,tag=LOC_g16] run tag @s add LOC_g16
 execute if entity @e[type=minecraft:armor_stand,limit=1,sort=nearest,distance=..3,tag=LOC_g17] run tag @s add LOC_g17
+
+execute as @s[tag=LOC_g1] run tag @s add LOC_guest
+execute as @s[tag=LOC_g2] run tag @s add LOC_guest
+execute as @s[tag=LOC_g3] run tag @s add LOC_guest
+execute as @s[tag=LOC_g4] run tag @s add LOC_guest
+execute as @s[tag=LOC_g5] run tag @s add LOC_guest
+execute as @s[tag=LOC_g6] run tag @s add LOC_guest
+execute as @s[tag=LOC_g7] run tag @s add LOC_guest
+execute as @s[tag=LOC_g8] run tag @s add LOC_guest
+execute as @s[tag=LOC_g9] run tag @s add LOC_guest
+execute as @s[tag=LOC_g10] run tag @s add LOC_guest
+execute as @s[tag=LOC_g11] run tag @s add LOC_guest
+execute as @s[tag=LOC_g12] run tag @s add LOC_guest
+execute as @s[tag=LOC_g13] run tag @s add LOC_guest
+execute as @s[tag=LOC_g14] run tag @s add LOC_guest
+execute as @s[tag=LOC_g15] run tag @s add LOC_guest
+execute as @s[tag=LOC_g16] run tag @s add LOC_guest
+execute as @s[tag=LOC_g17] run tag @s add LOC_guest

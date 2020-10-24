@@ -25,3 +25,5 @@ tag @s remove LOC_g14
 tag @s remove LOC_g15
 tag @s remove LOC_g16
 tag @s remove LOC_g17
+
+tag @s remove LOC_guest

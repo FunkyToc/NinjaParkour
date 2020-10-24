@@ -93,7 +93,10 @@ execute positioned -58 55.25 8 run summon minecraft:armor_stand ~ ~ ~ {CustomNam
 execute positioned -58 55 8 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"XXX","color":"white","bold":false}]',Tags:["hud","hud_LANG"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned -58 54.75 8 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"XXX","color":"white","bold":false}]',Tags:["hud","hud_LANG"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 
+
 ## Classic
+execute positioned 8 55 -69 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"XXX","color":"white","bold":false}]',Tags:["hud","hud_en"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
+
 # Easy
 execute positioned 0 55.5 -70 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"XXX","color":"gray","bold":true}]',Tags:["hud","hud_LANG"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned 0 55 -70 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"XXX","color":"white","bold":false}]',Tags:["hud","hud_LANG"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
@@ -132,7 +135,3 @@ execute positioned 11 55 -117 run summon minecraft:armor_stand ~ ~ ~ {CustomName
 
 execute positioned 8 55.5 -127 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"XXX","color":"gray","bold":true}]',Tags:["hud","hud_LANG"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned 8 55 -127 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"XXX","color":"white","bold":false}]',Tags:["hud","hud_LANG","loc","LOC_h3"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
-
-
-# Guest
-

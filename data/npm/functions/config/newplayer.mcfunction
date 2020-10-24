@@ -24,4 +24,5 @@ scoreboard players set @s NPM_NbParkour 0
 tellraw @a[tag=lang_en] [{"text":"A new challenger appears !"}]
 tellraw @a[tag=lang_fr] [{"text":"Un nouveau challenger est apparu !"}]
 tellraw @a[tag=lang_es] [{"text":"¡Aparece un nuevo reto!"}]
+tellraw @a[tag=lang_ru] [{"text":"Появился новый претендент !"}]
 tellraw @a[tag=lang_ch] [{"text":"一個新的挑戰者出現了！"}]

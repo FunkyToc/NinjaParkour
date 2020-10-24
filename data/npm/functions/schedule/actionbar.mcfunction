@@ -16,6 +16,12 @@ replaceitem entity @a[tag=ninja,tag=lang_es,gamemode=adventure] hotbar.1 minecra
 replaceitem entity @a[tag=ninja,tag=lang_es,gamemode=adventure] hotbar.7 minecraft:lantern{display:{Name:'{"text":"Section","bold":true,"color":"blue"}',Lore:['{"text":"Suelta para ser teletransportado a tu última sección"}']}} 1
 replaceitem entity @a[tag=ninja,tag=lang_es,gamemode=adventure] hotbar.8 minecraft:soul_lantern{display:{Name:'{"text":"Spawn","bold":true,"color":"dark_purple"}',Lore:['{"text":"Suelta para ser teletransportado al engendro"}']}} 1
 
+# ru
+replaceitem entity @a[tag=ninja,tag=lang_ru,gamemode=adventure] hotbar.0 minecraft:gold_nugget{display:{Name:'{"text":"Checkpoint","bold":true,"color":"gold"}',Lore:['{"text":"Прыгните для телепорта к последней точки сохранения"}']}} 1
+replaceitem entity @a[tag=ninja,tag=lang_ru,gamemode=adventure] hotbar.1 minecraft:iron_nugget{display:{Name:'{"text":"Parkour","bold":true,"color":"yellow"}',Lore:['{"text":"Прыгните для телепорта к последнему этапу паркура"}']}} 1
+replaceitem entity @a[tag=ninja,tag=lang_ru,gamemode=adventure] hotbar.7 minecraft:lantern{display:{Name:'{"text":"Section","bold":true,"color":"blue"}',Lore:['{"text":"Прыгните для телепорта к последней секуции"}']}} 1
+replaceitem entity @a[tag=ninja,tag=lang_ru,gamemode=adventure] hotbar.8 minecraft:soul_lantern{display:{Name:'{"text":"Spawn","bold":true,"color":"dark_purple"}',Lore:['{"text":"Прыгните для телепорта на спавн"}']}} 1
+
 # ch
 replaceitem entity @a[tag=ninja,tag=lang_ch,gamemode=adventure] hotbar.0 minecraft:gold_nugget{display:{Name:'{"text":"Checkpoint","bold":true,"color":"gold"}',Lore:['{"text":"丟出去可以傳送你到上一個存檔點"}']}} 1
 replaceitem entity @a[tag=ninja,tag=lang_ch,gamemode=adventure] hotbar.1 minecraft:iron_nugget{display:{Name:'{"text":"Parkour","bold":true,"color":"yellow"}',Lore:['{"text":"丟出去可以傳送你到上一個跑酷區"}']}} 1
