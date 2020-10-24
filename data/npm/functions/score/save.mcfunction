@@ -1,3 +1,4 @@
+# update personnal best
 execute if entity @s[tag=LOC_e1] if score @s NPM_Timer < @s Score_Easy_1 run scoreboard players operation @s Score_Easy_1 = @s NPM_Timer
 execute if entity @s[tag=LOC_e2] if score @s NPM_Timer < @s Score_Easy_2 run scoreboard players operation @s Score_Easy_2 = @s NPM_Timer
 execute if entity @s[tag=LOC_e3] if score @s NPM_Timer < @s Score_Easy_3 run scoreboard players operation @s Score_Easy_3 = @s NPM_Timer
@@ -8,6 +9,7 @@ execute if entity @s[tag=LOC_h1] if score @s NPM_Timer < @s Score_Hard_1 run sco
 execute if entity @s[tag=LOC_h2] if score @s NPM_Timer < @s Score_Hard_2 run scoreboard players operation @s Score_Hard_2 = @s NPM_Timer
 execute if entity @s[tag=LOC_h3] if score @s NPM_Timer < @s Score_Hard_3 run scoreboard players operation @s Score_Hard_3 = @s NPM_Timer
 
+# first win
 execute if entity @s[tag=LOC_e1] if score @s Score_Easy_1 matches -1 run scoreboard players operation @s Score_Easy_1 = @s NPM_Timer
 execute if entity @s[tag=LOC_e2] if score @s Score_Easy_2 matches -1 run scoreboard players operation @s Score_Easy_2 = @s NPM_Timer
 execute if entity @s[tag=LOC_e3] if score @s Score_Easy_3 matches -1 run scoreboard players operation @s Score_Easy_3 = @s NPM_Timer
@@ -18,4 +20,5 @@ execute if entity @s[tag=LOC_h1] if score @s Score_Hard_1 matches -1 run scorebo
 execute if entity @s[tag=LOC_h2] if score @s Score_Hard_2 matches -1 run scoreboard players operation @s Score_Hard_2 = @s NPM_Timer
 execute if entity @s[tag=LOC_h3] if score @s Score_Hard_3 matches -1 run scoreboard players operation @s Score_Hard_3 = @s NPM_Timer
 
+# update top 3 score
 function npm:score/update

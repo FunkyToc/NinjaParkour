@@ -83,7 +83,7 @@ execute positioned -47 54 23.8 run summon minecraft:armor_stand ~ ~ ~ {CustomNam
 execute positioned -48 55 26 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"Saut de Face","color":"white","bold":false}]',Tags:["hud","hud_fr"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned -48 57 32.9 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"Course Murale : 1 sec max","color":"white","bold":false}]',Tags:["hud","hud_fr"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned -56 55 26.9 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"Course Murale : 1 sec max","color":"white","bold":false}]',Tags:["hud","hud_fr"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
-execute positioned -54 55.25 21 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"Utilises un coin de  mur","color":"white","bold":false}]',Tags:["hud","hud_fr"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
+execute positioned -54 55.25 21 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"Utilises un coin de mur","color":"white","bold":false}]',Tags:["hud","hud_fr"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned -54 55 21 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"pour sauter plusieurs fois","color":"white","bold":false}]',Tags:["hud","hud_fr"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 
 # Keyboard tips
