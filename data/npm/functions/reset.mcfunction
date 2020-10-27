@@ -5,5 +5,6 @@ tag @s remove NPM_access_guest
 scoreboard players set @s npc_funkyfox 1
 function npm:score/reset
 function npm:loc/reset
+function npm:config/lang/lang_reset
 
 tag @s remove ninja
