@@ -9,5 +9,3 @@ execute as @a[tag=start] at @s unless block ~ ~-1 ~ minecraft:yellow_concrete ru
 execute as @a[tag=start] at @s unless block ~ ~-1 ~ minecraft:yellow_concrete run tag @s remove start
 execute as @a[tag=checkpoint] at @s unless block ~ ~-1 ~ minecraft:orange_concrete run tag @s remove checkpoint
 execute as @a[tag=section] at @s unless block ~ ~-1 ~ minecraft:blue_concrete run tag @s remove section
-# guest speed
-execute as @a at @s if block ~ ~-1 ~ minecraft:purple_concrete run effect give @s minecraft:speed 3 2 true

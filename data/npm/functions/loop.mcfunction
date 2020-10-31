@@ -3,7 +3,7 @@ function npm:builder/loop
 function npm:cosmetic/loop
 function npm:checkp/loop
 function npm:door/loop
-function npm:guest/loop
+execute if entity @a[tag=LOC_guest] run function npm:guest/loop
 function npm:hud/tick
 function npm:loc/loop
 function npm:npc/tick

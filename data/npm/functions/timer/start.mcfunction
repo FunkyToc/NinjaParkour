@@ -13,7 +13,8 @@ execute if entity @s[tag=cheatmod] run title @s[tag=lang_ru] actionbar {"text":"
 execute if entity @s[tag=!cheatmod] run title @s[tag=lang_ch] actionbar {"text":"開始跑酷"}
 execute if entity @s[tag=cheatmod] run title @s[tag=lang_ch] actionbar {"text":"開始跑酷 (因為你的模式導致你的分數無法紀錄)"}
 
-#exceptions
-execute if entity @s[tag=LOC_g8] run clear @s bow
-
-tag @s remove cheatmod
+# clear
+clear @s minecraft:bow
+clear @s minecraft:arrow
+clear @s minecraft:elytra
+clear @s minecraft:firework_rocket

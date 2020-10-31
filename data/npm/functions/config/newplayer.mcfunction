@@ -1,4 +1,5 @@
-tp @s 8.5 53.2 8.5
+tp @s 8.5 54.5 8.5
+spawnpoint @s ~ ~-1 ~
 gamemode adventure @s
 function npm:loc/reset
 function npm:timer/reset

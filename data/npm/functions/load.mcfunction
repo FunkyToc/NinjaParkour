@@ -25,6 +25,7 @@ gamerule spectatorsGenerateChunks true
 
 time set 6000
 weather clear 999999
+setworldspawn 8 54 8
 
 scoreboard objectives add NPM_Option dummy
 scoreboard objectives add dropGoldNug minecraft.dropped:minecraft.gold_nugget
@@ -48,6 +49,7 @@ scoreboard objectives add NPM_Score dummy
 scoreboard objectives add NPM_NbParkour dummy
 scoreboard objectives add NPM_Twerk dummy
 scoreboard objectives add TestMod trigger
+scoreboard objectives add SpecMod trigger
 
 scoreboard objectives add Score_Easy_1 dummy
 scoreboard objectives add Score_Easy_2 dummy
@@ -62,6 +64,8 @@ scoreboard objectives add Score_Hard_3 dummy
 scoreboard players set #5 NPM_Timer 5
 scoreboard players set #20 NPM_Timer 20
 scoreboard players set #1200 NPM_Timer 1200
+
+scoreboard players set NoCheat NPM_Option 1
 
 function npm:properties
 function npm:door/summon

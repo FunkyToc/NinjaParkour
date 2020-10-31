@@ -1,0 +1,2 @@
+execute as @a[x=404,y=20,z=16,dx=54,dy=80,dz=55,tag=!testmod] run gamemode creative @s
+execute as @a unless entity @s[x=404,y=20,z=16,dx=54,dy=80,dz=55] run gamemode adventure @s[tag=!builder,tag=!specmod]

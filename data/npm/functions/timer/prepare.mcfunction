@@ -1,3 +1,5 @@
+execute if entity @s[tag=cheatmod,gamemode=adventure] run tag @s remove cheatmod
+
 execute if entity @s[tag=!cheatmod] run title @s[tag=lang_en] actionbar {"text":"Parkour Ready !"}
 execute if entity @s[tag=cheatmod] run title @s[tag=lang_en] actionbar {"text":"Parkour Ready ! (score won't be saved because of your gamemode)"}
 
