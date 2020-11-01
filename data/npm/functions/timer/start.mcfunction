@@ -8,7 +8,7 @@ execute if entity @s[tag=!cheatmod] run title @s[tag=lang_es] actionbar {"text":
 execute if entity @s[tag=cheatmod] run title @s[tag=lang_es] actionbar {"text":"Parkour Lanzado (la puntuación no se guardará debido a tu gamemode)"}
 
 execute if entity @s[tag=!cheatmod] run title @s[tag=lang_ru] actionbar {"text":"Начало паркура"}
-execute if entity @s[tag=cheatmod] run title @s[tag=lang_ru] actionbar {"text":"Начало паркура (очки не будут сохранены из-за вашего игрового режима)"}
+execute if entity @s[tag=cheatmod] run title @s[tag=lang_ru] actionbar {"text":"Начало паркура (Очки не будут сохранены из-за вашего игрового режима)"}
 
 execute if entity @s[tag=!cheatmod] run title @s[tag=lang_ch] actionbar {"text":"開始跑酷"}
 execute if entity @s[tag=cheatmod] run title @s[tag=lang_ch] actionbar {"text":"開始跑酷 (因為你的模式導致你的分數無法紀錄)"}
