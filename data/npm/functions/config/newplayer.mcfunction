@@ -22,8 +22,8 @@ scoreboard players set @s NPM_SectionZ 8
 scoreboard players set @s NPM_SectionRota 0
 scoreboard players set @s NPM_NbParkour 0
 
-tellraw @a[tag=lang_en] [{"text":"A new challenger appears !"}]
-tellraw @a[tag=lang_fr] [{"text":"Un nouveau challenger est apparu !"}]
-tellraw @a[tag=lang_es] [{"text":"¡Aparece un nuevo reto!"}]
-tellraw @a[tag=lang_ru] [{"text":"Появился новый претендент!"}]
-tellraw @a[tag=lang_ch] [{"text":"一個新的挑戰者出現了！"}]
+tellraw @a [{"translate":"global.newchallenger"},{"text":" "},{"selector":"@s","color":"gold","bold":true},{"text":" "},{"translate":"global.ishere"}]
+# Un nouveau challenger est apparu !
+# ¡Aparece un nuevo reto!
+# Появился новый претендент!
+# 一個新的挑戰者出現了!

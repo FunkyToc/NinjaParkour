@@ -1,6 +1,6 @@
 # as player at player
-tellraw @s[tag=lang_fr] ["",{"text":"<FunkyFox>","color":"#be9dff"},{"text":" Et biensur : merci d'avoir joué !"}]
-tellraw @s[tag=!lang_fr] ["",{"text":"<FunkyFox>","color":"#be9dff"},{"text":" And of course: thank you for playing!"}]
+tellraw @s[tag=lang_fr] ["",{"text":"<","color":"#be9dff"},{"translate":"funkyfox.name","color":"#be9dff"},{"text":"> ","color":"#be9dff"},{"text":" Et biensur : merci d'avoir joué !"}]
+tellraw @s ["",{"text":"<","color":"#be9dff"},{"translate":"funkyfox.name","color":"#be9dff"},{"text":"> ","color":"#be9dff"},{"text":" And of course: thank you for playing!"}]
 execute as @e[tag=npc_funkyfox,limit=1,sort=nearest,distance=..6] at @s run function npm:npc/npcs/funkyfox/emotes/happy
 tag @e[tag=npc_funkyfox,limit=1,sort=nearest,distance=..6] add npc_talking
 
