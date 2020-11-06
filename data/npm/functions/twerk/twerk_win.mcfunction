@@ -5,11 +5,11 @@ particle minecraft:lava ~ ~.8 ~ .2 .3 .2 1 30
 effect give @s minecraft:saturation 30000 0 true
 
 # quest
-scoreboard players set @s[scores={npc_funkyfox=13}] npc_funkyfox 14
 scoreboard players set @s[scores={npc_funkyfox=13}] npc_proxi 0
+scoreboard players set @s[scores={npc_funkyfox=13}] npc_funkyfox 14
 
 # chat
-tellraw @s ["",{"translate":"global.twerk.combo","bold":true,"color":"gold"},{"translate":"global.twerk.effect"}]
+tellraw @s ["",{"translate":"global.twerk.combo","bold":true,"color":"gold"},{"text":" "},{"translate":"global.twerk.effect"}]
 # (Effet Saturation obtenu)
 # (obtienes efecto de saturación)
 # (Вы получили эффект Насыщенность)

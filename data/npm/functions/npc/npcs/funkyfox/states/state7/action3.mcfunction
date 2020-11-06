@@ -1,8 +1,9 @@
 # as player at player
-tellraw @s[tag=lang_fr] ["",{"text":"[Une épice d'Inde]","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger npc_choice set 1"}}]
-tellraw @s[tag=lang_fr] ["",{"text":"[Un plat a base d'aubergine]","bold":true,"color":"aqua","clickEvent":{"action":"run_command","value":"/trigger npc_choice set 2"}}]
-tellraw @s[tag=lang_fr] ["",{"text":"[Ca a l'air bon en tout cas]","bold":true,"color":"dark_red","clickEvent":{"action":"run_command","value":"/trigger npc_choice set 3"}}]
 
-tellraw @s ["",{"text":"[A spice from India]","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger npc_choice set 1"}}]
-tellraw @s ["",{"text":"[An eggplant-based dish]","bold":true,"color":"aqua","clickEvent":{"action":"run_command","value":"/trigger npc_choice set 2"}}]
-tellraw @s ["",{"text":"[Whatever, it smells good]","bold":true,"color":"dark_red","clickEvent":{"action":"run_command","value":"/trigger npc_choice set 3"}}]
+#Une épice d'Inde
+#Un plat a base d'aubergine
+#Ca a l'air bon en tout cas
+
+tellraw @s ["",{"text":"["},{"translate":"funkyfox.state7.choice1","bold":true,"color":"aqua","clickEvent":{"action":"run_command","value":"/trigger npc_choice set 1"}},{"text":"]"}]
+tellraw @s ["",{"text":"["},{"translate":"funkyfox.state7.choice2","bold":true,"color":"aqua","clickEvent":{"action":"run_command","value":"/trigger npc_choice set 2"}},{"text":"]"}]
+tellraw @s ["",{"text":"["},{"translate":"funkyfox.state7.choice3","bold":true,"color":"aqua","clickEvent":{"action":"run_command","value":"/trigger npc_choice set 3"}},{"text":"]"}]

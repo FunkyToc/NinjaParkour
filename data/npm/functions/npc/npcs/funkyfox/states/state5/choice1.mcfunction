@@ -1,8 +1,6 @@
 # as player at player
-
-# do
-tellraw @s[tag=lang_fr] ["",{"text":"<","color":"#be9dff"},{"translate":"funkyfox.name","color":"#be9dff"},{"text":"> ","color":"#be9dff"},{"text":" Haha. Non."}]
-tellraw @s ["",{"text":"<","color":"#be9dff"},{"translate":"funkyfox.name","color":"#be9dff"},{"text":"> ","color":"#be9dff"},{"text":" Haha. No."}]
+#Haha. Non.
+tellraw @s ["",{"text":"<","color":"#be9dff"},{"translate":"funkyfox.name","color":"#be9dff"},{"text":"> ","color":"#be9dff"},{"translate":"funkyfox.state5.answer1"}]
 tag @e[tag=npc_funkyfox,limit=1,sort=nearest,distance=..6] add npc_talking
 tag @s add question_ko
 

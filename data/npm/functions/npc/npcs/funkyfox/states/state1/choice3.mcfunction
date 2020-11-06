@@ -1,9 +1,10 @@
 # as player at player
 
-# do
-execute as @s[tag=lang_fr] run tellraw @a ["",{"text":"<"},{"selector":"@s"},{"text":">"},{"text":" Accouche ! Je dois faire quoi ?!"}]
-execute as @s[tag=!lang_fr] run tellraw @a ["",{"text":"<"},{"selector":"@s"},{"text":">"},{"text":" I don't have the whole day! Let's go wtf..."}]
+#Accouche ! Je dois faire quoi ?!
+
+execute as @s run tellraw @a ["",{"text":"<"},{"selector":"@s"},{"text":"> "},{"translate":"funkyfox.state1.answer3"}]
 execute as @e[tag=npc_funkyfox,limit=1,sort=nearest,distance=..6] at @s run function npm:npc/npcs/funkyfox/emotes/angry
+function npm:npc/npcs/funkyfox/emotes/angry
 tag @s add player_talking
 tag @s add mood_bad
 

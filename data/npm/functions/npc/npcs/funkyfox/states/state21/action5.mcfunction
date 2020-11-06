@@ -1,6 +1,9 @@
 # as player at player
-tellraw @s[tag=lang_fr] ["",{"text":"<","color":"#be9dff"},{"translate":"funkyfox.name","color":"#be9dff"},{"text":"> ","color":"#be9dff"},{"text":" Merci a toi pour ta patience ! Et bon courage pour la suite des parkours !"}]
-tellraw @s ["",{"text":"<","color":"#be9dff"},{"translate":"funkyfox.name","color":"#be9dff"},{"text":"> ","color":"#be9dff"},{"text":" Thank you for your patience! And good luck for the rest of the parkours!"}]
+
+#Bon courage pour le reste des parkours. Tu peux maintenant 
+#accèder à la Guest Zone !
+
+tellraw @s ["",{"text":"<","color":"#be9dff"},{"translate":"funkyfox.name","color":"#be9dff"},{"text":"> ","color":"#be9dff"},{"translate":"funkyfox.state21.action5.1"},{"text":" "},{"translate":"funkyfox.state21.action5.2"}]
 tag @e[tag=npc_funkyfox,limit=1,sort=nearest,distance=..6] add npc_talking
 
 # access
