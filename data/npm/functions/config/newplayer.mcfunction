@@ -22,8 +22,10 @@ scoreboard players set @s NPM_SectionZ 8
 scoreboard players set @s NPM_SectionRota 0
 scoreboard players set @s NPM_NbParkour 0
 
+playsound music.actinup master @a ~ ~ ~ .6 1 1
+schedule function npm:cosmetic/johncena 44t
 tellraw @a [{"translate":"global.newchallenger"},{"text":" "},{"selector":"@s","color":"gold","bold":true},{"text":" "},{"translate":"global.ishere"}]
-# Un nouveau challenger est apparu !
+
 # ¡Aparece un nuevo reto!
 # Появился новый претендент!
 # 一個新的挑戰者出現了!

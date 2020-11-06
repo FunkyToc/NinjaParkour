@@ -1,0 +1,1 @@
+schedule clear npm:cosmetic/new_challenger
