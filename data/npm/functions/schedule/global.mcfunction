@@ -1,6 +1,9 @@
 # new player
 execute as @a[tag=!ninja] at @s run function npm:config/newplayer
 
+# funkyfox first chat
+execute if entity @a[scores={npc_funkyfox=1}] run function npm:npc/npcs/funkyfox/appeal
+
 # rm anticheat tag
 execute as @a[tag=cheatmod,gamemode=adventure] run tag @s remove cheatmod
 

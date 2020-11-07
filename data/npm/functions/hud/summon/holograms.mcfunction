@@ -140,8 +140,8 @@ execute positioned 67 55.5 -70 run summon minecraft:armor_stand ~ ~ ~ {CustomNam
 execute positioned 67 55 -70 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'{"translate":"classic.medium3.subtitle","bold":false}',Tags:["hud","loc","LOC_m3"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 
 # Hard
-execute positioned 8 55.5 -77 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'{"translate":"classic.hard.section","color":"gray","bold":true}',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
-execute positioned 8 55 -77 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'{"translate":"classic.hard.subsection","color":"white","bold":false}',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
+execute positioned 8 55.5 -76 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'{"translate":"classic.hard.section","color":"gray","bold":true}',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
+execute positioned 8 55 -76 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'{"translate":"classic.hard.subsection","color":"white","bold":false}',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 
 execute positioned 5 55.5 -117 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'{"translate":"classic.hard1.title","color":"gray","bold":true}',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned 5 55 -117 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'{"translate":"classic.hard1.subtitle","bold":false}',Tags:["hud","loc","LOC_h1"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
@@ -157,15 +157,15 @@ execute positioned 8 55 -127 run summon minecraft:armor_stand ~ ~ ~ {CustomName:
 execute positioned 31 55.5 8 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'{"translate":"guest.global.difficulty","color":"gray","bold":true}',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned 31 55.25 8 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"\\u2605\\u2605\\u2605\\u2605\\u2605","color":"gold"}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 
-execute positioned 43 55.5 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"Climbing Gym","color":"gray","bold":true}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
+execute positioned 43 55.5 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"translate":"guest.plot1.title","color":"gray","bold":true}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned 43 55 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'{"translate":"guest.global.by"},{"text":"FunkyToc","color":"white"}',Tags:["hud","loc","LOC_g1"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned 43 54.75 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"\\u2605\\u2605\\u2605\\u2605\\u2605","color":"gold"}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 
-execute positioned 67 55.5 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"Ninjalexandria","color":"gray","bold":true}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
+execute positioned 67 55.5 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"translate":"guest.plot2.title","color":"gray","bold":true}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned 67 55 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'{"translate":"guest.global.by"},{"text":"Valnirlifaem","color":"white"}',Tags:["hud","loc","LOC_g2"],CustomNameVisible:0b,Invisible:1b,Marker:1b} 
 execute positioned 67 54.75 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"\\u2605\\u2605\\u2605\\u2605\\u2606","color":"gold"}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 
-execute positioned 91 55.5 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"Urban Ninja","color":"gray","bold":true}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
+execute positioned 91 55.5 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"translate":"guest.plot3.title","color":"gray","bold":true}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned 91 55 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'{"translate":"guest.global.by"},{"text":"BlueFeline","color":"white"}',Tags:["hud","loc","LOC_g3"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned 91 54.75 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"\\u2605\\u2605\\u2605\\u2605\\u2606","color":"gold"}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned 101.99 57 21.99 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"\\u2605\\u2605\\u2605\\u2605\\u2606","color":"white"}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
@@ -174,58 +174,58 @@ execute positioned 84.01 54 55.01 run summon minecraft:armor_stand ~ ~ ~ {Custom
 execute positioned 85 54 31.01 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"\\u2605\\u2605\\u2605\\u2606\\u2606","color":"white"}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned 108 54 33.99 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"\\u2605\\u2605\\u2606\\u2606\\u2606","color":"white"}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 
-execute positioned 115 55.5 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"Yamata Kudasai","color":"gray","bold":true}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
+execute positioned 115 55.5 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"translate":"guest.plot4.title","color":"gray","bold":true}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned 115 55 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'{"translate":"guest.global.by"},{"text":"CubiCraft","color":"white"}',Tags:["hud","loc","LOC_g4"],CustomNameVisible:0b,Invisible:1b,Marker:1b} 
 execute positioned 115 54.75 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"\\u2605\\u2605\\u2605\\u2606\\u2606","color":"gold"}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 
-execute positioned 139 55.5 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"Bob and Raberlu","color":"gray","bold":true}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
+execute positioned 139 55.5 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"translate":"guest.plot5.title","color":"gray","bold":true}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned 139 55 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'{"translate":"guest.global.by"},{"text":"Prince, Luto, Djix","color":"white"}',Tags:["hud","loc","LOC_g5"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned 139 54.75 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"\\u2605\\u2605\\u2605\\u2605\\u2606","color":"gold"}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 
-execute positioned 163 55.5 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"???","color":"gray","bold":true}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
+execute positioned 163 55.5 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"translate":"guest.plot6.title","color":"gray","bold":true}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned 163 55 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'{"translate":"guest.global.by"},{"text":"Gazer","color":"white"}',Tags:["hud","loc","LOC_g6"],CustomNameVisible:0b,Invisible:1b,Marker:1b} 
 execute positioned 163 54.75 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"\\u2605\\u2605\\u2606\\u2606\\u2606","color":"gold"}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 
-execute positioned 187 55.5 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"Roger ?!","color":"gray","bold":true}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
+execute positioned 187 55.5 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"translate":"guest.plot7.title","color":"gray","bold":true}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned 187 55 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'{"translate":"guest.global.by"},{"text":"DreamWanderer","color":"white"}',Tags:["hud","loc","LOC_g7"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned 187 54.75 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"\\u2605\\u2605\\u2605\\u2606\\u2606","color":"gold"}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 
-execute positioned 211 55.5 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"Cub\'s Eye","color":"gray","bold":true}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
+execute positioned 211 55.5 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"translate":"guest.plot8.title","color":"gray","bold":true}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned 211 55 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'{"translate":"guest.global.by"},{"text":"CubensisR","color":"white"}',Tags:["hud","loc","LOC_g8"],CustomNameVisible:0b,Invisible:1b,Marker:1b} 
 execute positioned 211 54.75 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"\\u2605\\u2605\\u2605\\u2606\\u2606","color":"gold"}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 
-execute positioned 235 55.5 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"???","color":"gray","bold":true}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
+execute positioned 235 55.5 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"translate":"guest.plot9.title","color":"gray","bold":true}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned 235 55 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'{"translate":"guest.global.by"},{"text":"DeamonHunter7","color":"white"}',Tags:["hud","loc","LOC_g9"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned 235 54.75 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"\\u2606\\u2606\\u2606\\u2606\\u2606","color":"gold"}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 
-execute positioned 259 55.5 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"???","color":"gray","bold":true}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
+execute positioned 259 55.5 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"translate":"guest.plot10.title","color":"gray","bold":true}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned 259 55 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'{"translate":"guest.global.by"},{"text":"Nokres","color":"white"}',Tags:["hud","loc","LOC_g10"],CustomNameVisible:0b,Invisible:1b,Marker:1b} 
 execute positioned 259 54.75 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"\\u2605\\u2605\\u2605\\u2606\\u2606","color":"gold"}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 
-execute positioned 283 55.5 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"The Big Daddy","color":"gray","bold":true}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
+execute positioned 283 55.5 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"translate":"guest.plot11.title","color":"gray","bold":true}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned 283 55 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"translate":"guest.global.by"},{"text":"Sartar_","color":"white"}]',Tags:["hud","loc","LOC_g11"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned 283 54.75 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"\\u2605\\u2605\\u2605\\u2605\\u2606","color":"gold"}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 
-execute positioned 307 55.5 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"The Last Lighthouse ","color":"gray","bold":true}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
+execute positioned 307 55.5 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"translate":"guest.plot12.title","color":"gray","bold":true}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned 307 55 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'{"translate":"guest.global.by"},{"text":"deadredghost","color":"white"}',Tags:["hud","loc","LOC_g12"],CustomNameVisible:0b,Invisible:1b,Marker:1b} 
 execute positioned 307 54.75 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"\\u2605\\u2605\\u2606\\u2606\\u2606","color":"gold"}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 
-execute positioned 346 55.5 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"Elder Fog","color":"gray","bold":true}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
+execute positioned 346 55.5 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"translate":"guest.plot13.title","color":"gray","bold":true}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned 346 55 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'{"translate":"guest.global.by"},{"text":"Boitameu","color":"white"}',Tags:["hud","loc","LOC_g13"],CustomNameVisible:0b,Invisible:1b,Marker:1b} 
 execute positioned 346 54.75 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"\\u2605\\u2605\\u2605\\u2605\\u2605","color":"gold"}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 
-execute positioned 355 55.5 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"Ever Never Nether","color":"gray","bold":true}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
+execute positioned 355 55.5 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"translate":"guest.plot14.title","color":"gray","bold":true}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned 355 55 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'{"translate":"guest.global.by"},{"text":"StazixLS","color":"white"}',Tags:["hud","loc","LOC_g14"],CustomNameVisible:0b,Invisible:1b,Marker:1b} 
 execute positioned 355 54.75 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"\\u2605\\u2605\\u2605\\u2606\\u2606","color":"gold"}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 
-execute positioned 379 55.5 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"???","color":"gray","bold":true}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
+execute positioned 379 55.5 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"translate":"guest.plot15.title","color":"gray","bold":true}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned 379 55 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'{"translate":"guest.global.by"},{"text":"???","color":"white"}',Tags:["hud","loc","LOC_g15"],CustomNameVisible:0b,Invisible:1b,Marker:1b} 
 execute positioned 379 54.75 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"\\u2606\\u2606\\u2606\\u2606\\u2606","color":"gold"}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 
-execute positioned 403 55.5 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"Maze Tower","color":"gray","bold":true}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
+execute positioned 403 55.5 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"translate":"guest.plot16.title","color":"gray","bold":true}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned 403 55 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'{"translate":"guest.global.by"},{"text":"Manazaka","color":"white"}',Tags:["hud","loc","LOC_g16"],CustomNameVisible:0b,Invisible:1b,Marker:1b} 
 execute positioned 403 54.75 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"\\u2605\\u2605\\u2605\\u2605\\u2605","color":"gold"}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 
-execute positioned 427 55.5 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"Amazing Ninja Parkour","color":"gray","bold":true}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
-execute positioned 427 55 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'{"translate":"guest.global.by"},{"text":"You","color":"white"}',Tags:["hud","loc","LOC_g17"],CustomNameVisible:0b,Invisible:1b,Marker:1b} 
+execute positioned 427 55.5 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"translate":"guest.plot17.title","color":"gray","bold":true}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
+execute positioned 427 55 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'{"translate":"guest.global.by"},{"translate":"guest.plot17.author","color":"white"}',Tags:["hud","loc","LOC_g17"],CustomNameVisible:0b,Invisible:1b,Marker:1b} 
 execute positioned 427 54.75 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"\\u2606\\u2606\\u2606\\u2606\\u2606","color":"gold"}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}

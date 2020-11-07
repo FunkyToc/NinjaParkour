@@ -3,5 +3,5 @@ execute as @s[scores={npc_proxi=040}] run function npm:npc/npcs/funkyfox/states/
 execute as @s[scores={npc_proxi=100}] run function npm:npc/npcs/funkyfox/states/state10/action2
 execute as @s[scores={npc_proxi=200}] run function npm:npc/npcs/funkyfox/states/state10/action3
 execute as @s[scores={npc_proxi=300}] run function npm:npc/npcs/funkyfox/states/state10/action4
-execute as @s[scores={npc_proxi=400}] run function npm:npc/npcs/funkyfox/states/state10/action5
-execute as @s[scores={npc_proxi=480}] run function npm:npc/npcs/funkyfox/states/state10/action6
+execute as @s[scores={npc_proxi=440}] run function npm:npc/npcs/funkyfox/states/state10/action5
+execute as @s[scores={npc_proxi=560}] run function npm:npc/npcs/funkyfox/states/state10/action6

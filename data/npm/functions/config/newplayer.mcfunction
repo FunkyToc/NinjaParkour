@@ -21,7 +21,9 @@ scoreboard players set @s NPM_SectionY 53
 scoreboard players set @s NPM_SectionZ 8
 scoreboard players set @s NPM_SectionRota 0
 scoreboard players set @s NPM_NbParkour 0
+scoreboard players set @s npc_funkyfox 1
 
+stopsound @a master minecraft:music.actinup
 playsound music.actinup master @a ~ ~ ~ .6 1 1
 schedule function npm:cosmetic/johncena 44t
 tellraw @a [{"translate":"global.newchallenger"},{"text":" "},{"selector":"@s","color":"gold","bold":true},{"text":" "},{"translate":"global.ishere"}]
