@@ -10,9 +10,7 @@ scoreboard players set @s[scores={npc_funkyfox=13}] npc_funkyfox 14
 
 # chat
 tellraw @s ["",{"translate":"global.twerk.combo","bold":true,"color":"gold"},{"text":" "},{"translate":"global.twerk.effect"}]
-# (Effet Saturation obtenu)
-# (obtienes efecto de saturación)
-# (Вы получили эффект Насыщенность)
+
 # (你得到吃飽飽的效果)
 
 function npm:twerk/twerk_reset
