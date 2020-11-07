@@ -8,7 +8,7 @@ execute if entity @a[scores={npc_funkyfox=1}] run function npm:npc/npcs/funkyfox
 execute as @a[tag=cheatmod,gamemode=adventure] run tag @s remove cheatmod
 
 # relocate funkyfox
-execute positioned 12 53 -1 as @e[type=minecraft:fox,tag=npc_funkyfox,limit=1,distance=5.01..64] run function npm:npc/npcs/funkyfox/relocate
+execute positioned 18 53 13 as @e[type=minecraft:fox,tag=npc_funkyfox,limit=1,distance=5.01..64] run function npm:npc/npcs/funkyfox/relocate
 
 # tag builder
 execute if score ENV NPM_Option matches 2 run function npm:builder/tag
