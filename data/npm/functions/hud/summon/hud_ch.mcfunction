@@ -2,10 +2,10 @@
 # hud_ch
 
 ## Spawn
+execute positioned 8 55 32 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"右键点击标志","color":"white","bold":false}]',Tags:["hud","hud_ch"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 # Doors
 execute positioned 8 55.5 22 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"感謝名單","color":"gray","bold":true}]',Tags:["hud","hud_ch"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned 8 55 22 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"只有很酷的傢伙","color":"white","bold":false}]',Tags:["hud","hud_ch"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
-execute positioned 8 55 32 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"右键点击标志","color":"white","bold":false}]',Tags:["hud","hud_ch"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned -6 55.5 8 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"教學","color":"gray","bold":true}]',Tags:["hud","hud_ch"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned -6 55 8 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"學習遊戲玩法","color":"white","bold":false}]',Tags:["hud","hud_ch"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned 8 55.5 -6 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"經典","color":"gray","bold":true}]',Tags:["hud","hud_ch"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
@@ -81,7 +81,7 @@ execute positioned -49 53.25 21 run summon minecraft:armor_stand ~ ~ ~ {CustomNa
 execute positioned -49 53 21 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"輕鬆的45°角","color":"white","bold":false}]',Tags:["hud","hud_ch"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned -47 54 23.8 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"牆壁奔跑","color":"white","bold":false}]',Tags:["hud","hud_ch"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned -48 55 26 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"牆壁跳躍","color":"white","bold":false}]',Tags:["hud","hud_ch"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
-execute positioned -48 57 32.9 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"最高速度：1秒","color":"white","bold":false}]',Tags:["hud","hud_ch"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
+execute positioned -48 57 32.9 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"靠近牆壁，但不要走進牆壁","color":"white","bold":false}]',Tags:["hud","hud_ch"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned -56 55 26.9 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"最高速度：1秒","color":"white","bold":false}]',Tags:["hud","hud_ch"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned -54 55.25 21 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"利用角落來得到更高的高度","color":"white","bold":false}]',Tags:["hud","hud_ch"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned -54 55 21 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"使用雙重跳躍","color":"white","bold":false}]',Tags:["hud","hud_ch"],CustomNameVisible:0b,Invisible:1b,Marker:1b}

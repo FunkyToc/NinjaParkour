@@ -27,5 +27,3 @@ stopsound @a master minecraft:music.actinup
 playsound music.actinup master @a ~ ~ ~ .6 1 1
 schedule function npm:cosmetic/johncena 44t
 tellraw @a [{"translate":"global.newchallenger"},{"text":" "},{"selector":"@s","color":"gold","bold":true},{"text":" "},{"translate":"global.ishere"}]
-
-# 一個新的挑戰者出現了!
