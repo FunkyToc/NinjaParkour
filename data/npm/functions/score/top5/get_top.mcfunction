@@ -16,9 +16,3 @@ execute if entity @s[tag=classicT2] run tag @s add inTop
 execute if entity @s[tag=classicT3] run tag @s add inTop
 execute if entity @s[tag=classicT4] run tag @s add inTop
 execute if entity @s[tag=classicT5] run tag @s add inTop
-
-execute if entity @s[tag=classicT1] run say Top1
-execute if entity @s[tag=classicT2] run say Top2
-execute if entity @s[tag=classicT3] run say Top3
-execute if entity @s[tag=classicT4] run say Top4
-execute if entity @s[tag=classicT5] run say Top5
