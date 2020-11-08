@@ -24,6 +24,13 @@ execute positioned -3 53.5 23 run summon minecraft:armor_stand ~ ~ ~ {CustomName
 execute positioned -4 53 23 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'{"translate":"spawn.lang.ch","color":"white","bold":false}',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned -5 53.5 23 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'{"translate":"spawn.lang.ch","color":"dark_gray","bold":false}',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 
+# Top 5
+execute positioned 20 53 16 run summon minecraft:armor_stand ~ ~ ~ {Tags:["loc","LOC_top5"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
+execute positioned 16 53 16 run summon minecraft:armor_stand ~ ~ ~ {Tags:["loc","LOC_top5"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
+execute positioned 16 53 20 run summon minecraft:armor_stand ~ ~ ~ {Tags:["loc","LOC_top5"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
+execute positioned 23 53.35 17 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'{"translate":"score.top5.info.1","color":"dark_gray"}',Tags:["hud","loc","LOC_top5"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
+execute positioned 23 53.10 17 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'{"translate":"score.top5.info.2","color":"dark_gray"}',Tags:["hud","loc","LOC_top5"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
+
 # Twerk Zone
 execute positioned 18 55.5 -2 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'{"translate":"spawn.twerk.title","color":"gray","bold":true}',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned 18 55 -2 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'{"translate":"spawn.twerk.subtitle","color":"white","bold":false}',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}

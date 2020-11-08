@@ -20,5 +20,6 @@ scoreboard objectives add Score_Hard_3 dummy
 
 function npm:score/reset
 function npm:score/board/reset
+function npm:score/top5/reset
 
 function npm:score/top/init

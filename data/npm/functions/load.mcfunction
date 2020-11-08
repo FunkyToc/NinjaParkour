@@ -60,6 +60,7 @@ scoreboard objectives add Score_Medium_3 dummy
 scoreboard objectives add Score_Hard_1 dummy
 scoreboard objectives add Score_Hard_2 dummy
 scoreboard objectives add Score_Hard_3 dummy
+scoreboard objectives add Score_Top5 dummy
 
 scoreboard players set #5 NPM_Timer 5
 scoreboard players set #20 NPM_Timer 20

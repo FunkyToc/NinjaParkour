@@ -1,0 +1,1 @@
+execute as @a[tag=LOC_top5] if entity @s[scores={Score_Easy_1=1..,Score_Easy_2=1..,Score_Easy_3=1..,Score_Medium_1=1..,Score_Medium_2=1..,Score_Medium_3=1..,Score_Hard_1=1..,Score_Hard_2=1..,Score_Hard_3=1..}] run function npm:score/top5/update
