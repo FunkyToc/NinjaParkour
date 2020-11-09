@@ -1,1 +1,1 @@
-execute as @e[tag=npc_funkyfox] at @s run tellraw @a[distance=8..64] ["",{"text":"<","color":"#be9dff"},{"translate":"funkyfox.name","color":"#be9dff"},{"text":"> ","color":"#be9dff"},{"translate":"funkyfox.appeal"}]
+execute as @e[tag=npc_funkyfox] at @s run tellraw @a[scores={npc_funkyfox=1},distance=8..64] ["",{"text":"<","color":"#be9dff"},{"translate":"funkyfox.name","color":"#be9dff"},{"text":"> ","color":"#be9dff"},{"translate":"funkyfox.appeal"}]

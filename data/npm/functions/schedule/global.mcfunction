@@ -13,6 +13,12 @@ execute positioned 18 53 13 as @e[type=minecraft:fox,tag=npc_funkyfox,limit=1,di
 # top5 update
 execute as @a[tag=LOC_top5] at @s run function npm:score/top5/check
 
+# stats update
+execute as @a[tag=LOC_top5,limit=1] at @s run function npm:score/stats/update
+
+# death stat
+execute as @a[scores={Death=1..}] run function npm:score/stats/deadninja
+
 # tag builder
 execute if score ENV NPM_Option matches 2 run function npm:builder/tag
 
