@@ -2,7 +2,8 @@ gamerule sendCommandFeedback true
 gamerule maxCommandChainLength
 gamerule randomTickSpeed 0
 
-gamerule fallDamage true
+gamerule fallDamage false
+gamerule fireDamage false
 gamerule doImmediateRespawn true
 gamerule keepInventory true
 gamerule commandBlockOutput false
