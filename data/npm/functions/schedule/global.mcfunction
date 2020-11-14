@@ -7,8 +7,9 @@ execute as @a[tag=cheatmod,gamemode=adventure] run tag @s remove cheatmod
 # funkyfox first chat
 execute if entity @a[scores={npc_funkyfox=1}] run function npm:npc/npcs/funkyfox/appeal
 
-# relocate funkyfox
-execute positioned 18 53 13 as @e[type=minecraft:fox,tag=npc_funkyfox,limit=1,distance=5.01..64] run function npm:npc/npcs/funkyfox/relocate
+# relocate
+execute positioned 18 53 13 as @e[type=minecraft:fox,tag=npc_funkyfox,limit=1,distance=5.01..128] run function npm:npc/npcs/funkyfox/relocate
+execute positioned 34 53 12 as @e[type=minecraft:villager,tag=npc_muramasa,limit=1,distance=3.01..128] run function npm:npc/npcs/muramasa/relocate
 
 # top5 update
 execute as @a[tag=LOC_top5] at @s run function npm:score/top5/check

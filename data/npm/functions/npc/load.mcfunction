@@ -4,3 +4,4 @@ scoreboard objectives add npc_proxi dummy
 
 # npc load
 function npm:npc/npcs/funkyfox/load
+function npm:npc/npcs/muramasaka/load

@@ -1,0 +1,1 @@
+particle minecraft:ash ~ ~.3 ~ .3 .5 .3 0.01 3
