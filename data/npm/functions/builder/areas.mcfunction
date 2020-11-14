@@ -36,9 +36,9 @@ execute as CubensisR if entity @s[x=169,y=20,z=-55,dx=63,dy=100,dz=63,tag=!testm
 execute as CubensisR unless entity @s[x=169,y=20,z=-55,dx=63,dy=100,dz=63] run gamemode adventure @s[tag=!specmod]
 execute as CubensisR unless entity @s[x=169,y=20,z=-55,dx=63,dy=100,dz=63] run gamemode spectator @s[tag=specmod]
 
-execute as DeamonHunter7 if entity @s[x=193,y=20,z=7,dx=63,dy=100,dz=63,tag=!testmod] run gamemode creative @s
-execute as DeamonHunter7 unless entity @s[x=193,y=20,z=7,dx=63,dy=100,dz=63] run gamemode adventure @s[tag=!specmod]
-execute as DeamonHunter7 unless entity @s[x=193,y=20,z=7,dx=63,dy=100,dz=63] run gamemode spectator @s[tag=specmod]
+execute as GeoCobra if entity @s[x=193,y=20,z=7,dx=63,dy=100,dz=63,tag=!testmod] run gamemode creative @s
+execute as GeoCobra unless entity @s[x=193,y=20,z=7,dx=63,dy=100,dz=63] run gamemode adventure @s[tag=!specmod]
+execute as GeoCobra unless entity @s[x=193,y=20,z=7,dx=63,dy=100,dz=63] run gamemode spectator @s[tag=specmod]
 
 execute as Nokres if entity @s[x=232,y=20,z=-50,dx=63,dy=80,dz=55,tag=!testmod] run gamemode creative @s
 execute as Nokres unless entity @s[x=232,y=20,z=-50,dx=63,dy=80,dz=55] run gamemode adventure @s[tag=!specmod]

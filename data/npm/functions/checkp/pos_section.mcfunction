@@ -7,6 +7,8 @@ scoreboard players operation @s NPM_CheckpZ = @s NPM_SectionZ
 scoreboard players operation @s NPM_ParkourX = @s NPM_SectionX
 scoreboard players operation @s NPM_ParkourY = @s NPM_SectionY
 scoreboard players operation @s NPM_ParkourZ = @s NPM_SectionZ
+
+execute if score @s NPM_Timer matches 1200.. run function npm:cosmetic/ninja_tear
 tag @s add section
 tag @s remove started
 function npm:timer/reset

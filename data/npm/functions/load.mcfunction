@@ -64,6 +64,8 @@ scoreboard objectives add Score_Top5 dummy
 
 scoreboard objectives add Death deathCount
 scoreboard objectives add NPM_NbParkour dummy
+scoreboard objectives add NPM_Tear dummy
+
 scoreboard objectives setdisplay list NPM_NbParkour
 
 scoreboard players set #5 NPM_Timer 5

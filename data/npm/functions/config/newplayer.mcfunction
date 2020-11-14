@@ -6,7 +6,6 @@ function npm:timer/reset
 function npm:score/reset
 function npm:schedule/actionbar
 tag @s add ninja
-tag @s add lang_en
 
 scoreboard players set @s NPM_CheckpX 8
 scoreboard players set @s NPM_CheckpY 53
@@ -21,6 +20,7 @@ scoreboard players set @s NPM_SectionY 53
 scoreboard players set @s NPM_SectionZ 8
 scoreboard players set @s NPM_SectionRota 0
 scoreboard players set @s NPM_NbParkour 0
+scoreboard players set @s NPM_Tear 0
 scoreboard players set @s npc_funkyfox 1
 
 stopsound @a master minecraft:music.actinup

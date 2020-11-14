@@ -203,7 +203,7 @@ execute positioned 211 55 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'
 execute positioned 211 54.75 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"\\u2605\\u2605\\u2605\\u2606\\u2606","color":"gold"}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 
 execute positioned 235 55.5 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"translate":"guest.plot9.title","color":"gray","bold":true}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
-execute positioned 235 55 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"translate":"guest.global.by"},{"text":" "},{"text":"DeamonHunter7","color":"white"}]',Tags:["hud","loc","LOC_g9"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
+execute positioned 235 55 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"translate":"guest.global.by"},{"text":" "},{"text":"GeoCobra","color":"white"}]',Tags:["hud","loc","LOC_g9"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 execute positioned 235 54.75 11 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"text":"\\u2606\\u2606\\u2606\\u2606\\u2606","color":"gold"}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
 
 execute positioned 259 55.5 5 run summon minecraft:armor_stand ~ ~ ~ {CustomName:'[{"translate":"guest.plot10.title","color":"gray","bold":true}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b}
