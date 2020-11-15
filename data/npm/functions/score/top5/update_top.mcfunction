@@ -17,3 +17,6 @@ execute if entity @s[tag=classicT4] run scoreboard players operation Top5 Score_
 execute if entity @s[tag=classicT4] run scoreboard players operation Top4 Score_Top5 = @s Score_Top5
 
 execute if entity @s[tag=classicT5] run scoreboard players operation Top5 Score_Top5 = @s Score_Top5
+
+# team color
+function npm:score/top5/update_team
