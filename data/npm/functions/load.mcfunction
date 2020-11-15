@@ -1,6 +1,7 @@
 gamerule sendCommandFeedback true
 gamerule maxCommandChainLength
 gamerule randomTickSpeed 0
+difficulty easy
 
 gamerule fallDamage false
 gamerule fireDamage false
@@ -28,11 +29,17 @@ time set 6000
 weather clear 999999
 setworldspawn 8 54 8
 
+execute as @e[type=minecraft:painting] run data modify entity @s Invulnerable set value 1b
+execute as @e[type=minecraft:item_frame] run data modify entity @s Invulnerable set value 1b
+
 scoreboard objectives add NPM_Option dummy
 scoreboard objectives add dropGoldNug minecraft.dropped:minecraft.gold_nugget
 scoreboard objectives add dropIronNug minecraft.dropped:minecraft.iron_nugget
 scoreboard objectives add dropLantern minecraft.dropped:minecraft.lantern
 scoreboard objectives add dropSoulLantern minecraft.dropped:minecraft.soul_lantern
+scoreboard objectives add EatMoussaka minecraft.used:minecraft.cooked_beef
+scoreboard objectives add EatChips minecraft.used:minecraft.baked_potato
+scoreboard objectives add EmoteSad minecraft.used:minecraft.potion
 scoreboard objectives add NPM_CheckpX dummy
 scoreboard objectives add NPM_CheckpY dummy
 scoreboard objectives add NPM_CheckpZ dummy
