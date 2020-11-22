@@ -1,0 +1,1 @@
+execute as @a[tag=detected] at @s run function npm:guest/systems/geocobra/detected

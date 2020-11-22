@@ -1,0 +1,2 @@
+ execute as @e[type=minecraft:armor_stand,tag=guard,tag=rotation_180] at @s run tp @s ~ ~ ~ ~180 ~
+execute if entity @a[tag=LOC_g9] run schedule function npm:guest/systems/geocobra/rotation_180 50t replace

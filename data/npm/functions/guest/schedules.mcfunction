@@ -1,11 +1,4 @@
-# CubensisR chest : bow + arrow
-execute if entity @a[tag=LOC_g8] run setblock 222 67 -6 minecraft:air
-execute if entity @a[tag=LOC_g8] run setblock 222 67 -6 chest[facing=south]{Items:[{Slot:10,id:bow,Count:1},{Slot:11,id:bow,Count:1},{Slot:12,id:bow,Count:1},{Slot:14,id:arrow,Count:64},{Slot:15,id:arrow,Count:64},{Slot:16,id:arrow,Count:64}]} replace
-
-# Boitameu chest : bow + arrow
-execute if entity @a[tag=LOC_g13] run setblock 342 44 42 minecraft:air
-execute if entity @a[tag=LOC_g13] run setblock 342 44 42 chest[facing=south]{Items:[{Slot:10,id:bow,Count:1},{Slot:11,id:bow,Count:1},{Slot:12,id:bow,Count:1},{Slot:14,id:arrow,Count:64},{Slot:15,id:arrow,Count:64},{Slot:16,id:arrow,Count:64}]} replace
-execute positioned 346.99 55.8 58 run kill @e[type=minecraft:item,nbt={"Item":{"id":"minecraft:lapis_block"}},distance=..1]
-execute positioned 346.99 55.8 58 run summon item ~ ~ ~ {CustomName:'[{"text":"Lapis Key","bold":false,"color":"white"}]',Tags:["hud"],CustomNameVisible:0b,Item:{id:"minecraft:lapis_block",Count:1b},Age:-32768,PickupDelay:20,NoGravity:1b}
-execute positioned 328.99 55.2 30 run kill @e[type=minecraft:item,nbt={"Item":{"id":"minecraft:diamond_block"}},distance=..1]
-execute positioned 328.99 55.2 30 run summon item ~ ~ ~ {CustomName:'[{"text":"Diamond Key","bold":false,"color":"white"}]',Tags:["hud"],CustomNameVisible:0b,Item:{id:"minecraft:diamond_block",Count:1b},Age:-32768,PickupDelay:20,NoGravity:1b}
+execute if entity @a[tag=LOC_g3] run schedule function npm:guest/systems/bluefeline/schedules 10s
+execute if entity @a[tag=LOC_g8] run schedule function npm:guest/systems/cubensisr/schedules 10s
+execute if entity @a[tag=LOC_g9] run schedule function npm:guest/systems/geocobra/schedules 10s append
+execute if entity @a[tag=LOC_g13] run schedule function npm:guest/systems/boitameu/schedules 10s
