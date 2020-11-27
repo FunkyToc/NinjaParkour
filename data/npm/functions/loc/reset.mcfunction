@@ -28,3 +28,7 @@ tag @s remove LOC_g17
 
 tag @s remove LOC_top5
 tag @s remove LOC_guest
+
+tag @s add loc_chose
+
+function npm:sounds/reset

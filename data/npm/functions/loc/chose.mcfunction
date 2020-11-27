@@ -1,4 +1,5 @@
 function npm:loc/reset
+
 execute if entity @e[type=minecraft:area_effect_cloud,limit=1,sort=nearest,distance=..3,tag=LOC_e1] run tag @s add LOC_e1
 execute if entity @e[type=minecraft:area_effect_cloud,limit=1,sort=nearest,distance=..3,tag=LOC_e2] run tag @s add LOC_e2
 execute if entity @e[type=minecraft:area_effect_cloud,limit=1,sort=nearest,distance=..3,tag=LOC_e3] run tag @s add LOC_e3

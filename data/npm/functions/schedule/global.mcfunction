@@ -25,3 +25,6 @@ execute if score ENV NPM_Option matches 2 run function npm:builder/tag
 
 # hide hologram
 execute as @e[tag=hud] at @s unless entity @p[distance=..8] run data merge entity @s {CustomNameVisible:0b}
+
+# ambience / music
+function npm:sounds/check
