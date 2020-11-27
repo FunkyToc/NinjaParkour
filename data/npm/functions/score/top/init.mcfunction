@@ -34,8 +34,8 @@ execute unless score Top3 Score_Top5 matches 1.. run scoreboard players set Top3
 execute unless score Top4 Score_Top5 matches 1.. run scoreboard players set Top4 Score_Top5 -1
 execute unless score Top5 Score_Top5 matches 1.. run scoreboard players set Top5 Score_Top5 -1
 
-execute as @e[type=minecraft:armor_stand,tag=t1] unless score @s NPM_Timer matches 1.. run scoreboard players set @s NPM_Timer -1
-execute as @e[type=minecraft:armor_stand,tag=t2] unless score @s NPM_Timer matches 1.. run scoreboard players set @s NPM_Timer -1
-execute as @e[type=minecraft:armor_stand,tag=t3] unless score @s NPM_Timer matches 1.. run scoreboard players set @s NPM_Timer -1
-execute as @e[type=minecraft:armor_stand,tag=t4] unless score @s NPM_Timer matches 1.. run scoreboard players set @s NPM_Timer -1
-execute as @e[type=minecraft:armor_stand,tag=t5] unless score @s NPM_Timer matches 1.. run scoreboard players set @s NPM_Timer -1
+execute as @e[type=minecraft:area_effect_cloud,tag=t1] unless score @s NPM_Timer matches 1.. run scoreboard players set @s NPM_Timer -1
+execute as @e[type=minecraft:area_effect_cloud,tag=t2] unless score @s NPM_Timer matches 1.. run scoreboard players set @s NPM_Timer -1
+execute as @e[type=minecraft:area_effect_cloud,tag=t3] unless score @s NPM_Timer matches 1.. run scoreboard players set @s NPM_Timer -1
+execute as @e[type=minecraft:area_effect_cloud,tag=t4] unless score @s NPM_Timer matches 1.. run scoreboard players set @s NPM_Timer -1
+execute as @e[type=minecraft:area_effect_cloud,tag=t5] unless score @s NPM_Timer matches 1.. run scoreboard players set @s NPM_Timer -1

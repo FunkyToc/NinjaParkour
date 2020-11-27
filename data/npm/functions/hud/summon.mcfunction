@@ -5,3 +5,5 @@ function npm:hud/summon/scores_top3
 function npm:hud/summon/scores_top5
 function npm:hud/summon/scores_stats
 function npm:hud/summon/scores_guest
+
+schedule function npm:schedule/global-low 1d replace

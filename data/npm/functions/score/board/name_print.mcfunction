@@ -1,3 +1,3 @@
-execute if entity @s[tag=n3] unless score @e[type=minecraft:armor_stand,tag=t2,distance=..5,sort=nearest,limit=1] NPM_Timer matches -1 run data modify entity @s CustomName set from entity @e[tag=n2,distance=..5,limit=1] CustomName
-execute if entity @s[tag=n2] unless score @e[type=minecraft:armor_stand,tag=t1,distance=..5,sort=nearest,limit=1] NPM_Timer matches -1 run data modify entity @s CustomName set from entity @e[tag=n1,distance=..5,limit=1] CustomName
+execute if entity @s[tag=n3] unless score @e[type=minecraft:area_effect_cloud,tag=t2,distance=..5,sort=nearest,limit=1] NPM_Timer matches -1 run data modify entity @s CustomName set from entity @e[tag=n2,distance=..5,limit=1] CustomName
+execute if entity @s[tag=n2] unless score @e[type=minecraft:area_effect_cloud,tag=t1,distance=..5,sort=nearest,limit=1] NPM_Timer matches -1 run data modify entity @s CustomName set from entity @e[tag=n1,distance=..5,limit=1] CustomName
 setblock ~ 1 ~ air replace

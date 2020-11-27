@@ -1,2 +1,2 @@
-execute as @a at @s if entity @e[type=armor_stand,tag=loc,distance=..3] run function npm:loc/chose
-execute as @a at @s if entity @e[type=armor_stand,tag=loc_reset,distance=..3] run function npm:loc/reset
+execute as @a at @s if entity @e[type=area_effect_cloud,tag=loc,distance=..3] run function npm:loc/chose
+execute as @a at @s if entity @e[type=area_effect_cloud,tag=loc_reset,distance=..3] run function npm:loc/reset
