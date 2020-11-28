@@ -15,4 +15,4 @@ execute as @a[tag=LOC_g14] run playsound minecraft:guest.stazix.music music @a[t
 #execute as @a[tag=LOC_g15] run playsound minecraft:guest.xxx.music music @a[tag=LOC_g15] ~ ~ ~ 1 1 1
 execute as @a[tag=LOC_g16] run playsound minecraft:guest.manazaka.music music @a[tag=LOC_g16] ~ ~ ~ 1 1 1
 
-scoreboard players set #GuestMusic NPM_Timer 10000
+scoreboard players set #GuestMusic NPM_Timer 12000
