@@ -1,0 +1,1 @@
+give @s minecraft:potion{display:{Name:'{"translate":"shop.potion.title","color":"#8dba48","bold":true}',Lore:["{\"translate\":\"shop.potion.lore\",\"color\":\"white\"}"]},CustomPotionEffects:[{Id:14b,Amplifier:0b,Duration:6000,ShowParticles:1b}],CustomPotionColor:16749784} 1

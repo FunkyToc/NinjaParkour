@@ -1,0 +1,1 @@
+give @s minecraft:bucket{display:{Name:'{"translate":"shop.bucket.title","color":"#5666e1","bold":true}',Lore:["{\"translate\":\"shop.bucket.lore\",\"color\":\"white\"}"]}} 1

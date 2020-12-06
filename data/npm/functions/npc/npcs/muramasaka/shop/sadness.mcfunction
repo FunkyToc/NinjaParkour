@@ -1,0 +1,1 @@
+give @s minecraft:potion{display:{Name:'{"translate":"shop.water.title","color":"#989bac","bold":true}',Lore:["{\"translate\":\"shop.water.lore\",\"color\":\"white\"}"]},Potion:'minecraft:water',CustomPotionColor:5872895} 1

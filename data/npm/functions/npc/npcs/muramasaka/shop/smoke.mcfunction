@@ -1,0 +1,1 @@
+give @s minecraft:firework_rocket{display:{Name:'{"translate":"shop.firework.title","color":"#dc9ce9","bold":true}',Lore:['{"translate":"shop.firework.lore","color":"white"}']},HideFlags:32,Fireworks:{Flight:1b,Explosions:[{Type:1,Flicker:1b,Trail:1b,Colors:[I;16777215,0],FadeColors:[I;6684927]},{Type:0,Flicker:1b,Trail:1b,Colors:[I;6684927],FadeColors:[I;10551296]}]}} 16
