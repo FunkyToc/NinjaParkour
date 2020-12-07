@@ -4,7 +4,3 @@ tag @e[tag=npc_funkyfox,limit=1,sort=nearest,distance=..6] add npc_talking
 
 # access
 tag @s add NPM_access_guest
-
-scoreboard players set @s npc_proxi 0
-scoreboard players set @s npc_choice 0
-scoreboard players set @s npc_funkyfox 22

@@ -27,7 +27,7 @@ execute if score ENV NPM_Option matches 2 run function npm:builder/tag
 execute as @e[tag=hud] at @s unless entity @p[distance=..8] run data merge entity @s {CustomNameVisible:0b}
 
 # reset weather
-execute unless entity @a[tag=LOC_g4] run function npm:config/weather
+execute unless entity @a[tag=LOC_g4] unless entity @a[tag=LOC_g9] unless entity @a[tag=LOC_g11] unless entity @a[tag=LOC_g12] unless entity @a[tag=LOC_g14] run function npm:config/weather
 
 # ambience / music
 function npm:sounds/check
