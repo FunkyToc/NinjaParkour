@@ -1,0 +1,24 @@
+summon minecraft:horse 264 53 -31 {Attributes:[{Name:"generic.knockback_resistance",Base:1f},{Name:"generic.movement_speed",Base:0.1f}],Silent:1,DeathLootTable:"",Variant:2,Tags:["nokres_mob"]}
+summon minecraft:horse 279 53 -32 {Attributes:[{Name:"generic.knockback_resistance",Base:1f},{Name:"generic.movement_speed",Base:0.1f}],Silent:1,DeathLootTable:"",Variant:3,Tags:["nokres_mob"]}
+summon minecraft:horse 279 53 -28 {Attributes:[{Name:"generic.knockback_resistance",Base:1f},{Name:"generic.movement_speed",Base:0.1f}],Silent:1,DeathLootTable:"",Variant:3,Tags:["nokres_mob"]}
+summon minecraft:horse 257 53 -5 {Attributes:[{Name:"generic.knockback_resistance",Base:1f},{Name:"generic.movement_speed",Base:0.1f}],Silent:1,DeathLootTable:"",Variant:4,Tags:["nokres_mob"]}
+summon minecraft:pig 251 53 -19 {Attributes:[{Name:"generic.knockback_resistance",Base:1f},{Name:"generic.movement_speed",Base:0.1f}],Silent:1,DeathLootTable:"",Tags:["nokres_mob"]}
+summon minecraft:pig 262 53 -27 {Attributes:[{Name:"generic.knockback_resistance",Base:1f},{Name:"generic.movement_speed",Base:0.1f}],Silent:1,DeathLootTable:"",Tags:["nokres_mob"]}
+summon minecraft:pig 256 53 -5 {Attributes:[{Name:"generic.knockback_resistance",Base:1f},{Name:"generic.movement_speed",Base:0.1f}],Silent:1,DeathLootTable:"",Tags:["nokres_mob"]}
+summon minecraft:pig 256 53 -5 {Attributes:[{Name:"generic.knockback_resistance",Base:1f},{Name:"generic.movement_speed",Base:0.1f}],Silent:1,DeathLootTable:"",Tags:["nokres_mob"]}
+summon minecraft:chicken 271 53 -21 {Attributes:[{Name:"generic.knockback_resistance",Base:1f},{Name:"generic.movement_speed",Base:0.1f}],Silent:1,DeathLootTable:"",Tags:["nokres_mob"]}
+summon minecraft:chicken 272 53 -20 {Attributes:[{Name:"generic.knockback_resistance",Base:1f},{Name:"generic.movement_speed",Base:0.1f}],Silent:1,DeathLootTable:"",Tags:["nokres_mob"]}
+summon minecraft:chicken 273 53 -22 {Attributes:[{Name:"generic.knockback_resistance",Base:1f},{Name:"generic.movement_speed",Base:0.1f}],Silent:1,DeathLootTable:"",Tags:["nokres_mob"]}
+summon minecraft:chicken 260 53 -26 {Attributes:[{Name:"generic.knockback_resistance",Base:1f},{Name:"generic.movement_speed",Base:0.1f}],Silent:1,DeathLootTable:"",Tags:["nokres_mob"]}
+summon minecraft:chicken 254 53 -26 {Attributes:[{Name:"generic.knockback_resistance",Base:1f},{Name:"generic.movement_speed",Base:0.1f}],Silent:1,DeathLootTable:"",Tags:["nokres_mob"]}
+summon minecraft:chicken 250 53 -24 {Attributes:[{Name:"generic.knockback_resistance",Base:1f},{Name:"generic.movement_speed",Base:0.1f}],Silent:1,DeathLootTable:"",Tags:["nokres_mob"]}
+summon minecraft:cow 254 53 -13 {Attributes:[{Name:"generic.knockback_resistance",Base:1f},{Name:"generic.movement_speed",Base:0.1f}],Silent:1,DeathLootTable:"",Tags:["nokres_mob"]}
+summon minecraft:cow 258 53 -21 {Attributes:[{Name:"generic.knockback_resistance",Base:1f},{Name:"generic.movement_speed",Base:0.1f}],Silent:1,DeathLootTable:"",Tags:["nokres_mob"]}
+summon minecraft:cow 256 53 -34 {Attributes:[{Name:"generic.knockback_resistance",Base:1f},{Name:"generic.movement_speed",Base:0.1f}],Silent:1,DeathLootTable:"",Tags:["nokres_mob"]}
+summon minecraft:cow 259 53 -35 {Attributes:[{Name:"generic.knockback_resistance",Base:1f},{Name:"generic.movement_speed",Base:0.1f}],Silent:1,DeathLootTable:"",Tags:["nokres_mob"]}
+
+summon minecraft:villager 261 53 -5 {Attributes:[{Name:"generic.knockback_resistance",Base:1f},{Name:"generic.movement_speed",Base:0.0f}],Silent:1,DeathLootTable:"",VillagerData:{level:99,profession:"minecraft:fisherman",type:"minecraft:plains"},Tags:["nokres_mob"]}
+summon minecraft:villager 252 53 -17 {Attributes:[{Name:"generic.knockback_resistance",Base:1f},{Name:"generic.movement_speed",Base:0.0f}],Silent:1,DeathLootTable:"",VillagerData:{level:99,profession:"minecraft:farmer",type:"minecraft:plains"},Tags:["nokres_mob"]}
+summon minecraft:villager 263 53 -26 {Attributes:[{Name:"generic.knockback_resistance",Base:1f},{Name:"generic.movement_speed",Base:0.0f}],Silent:1,DeathLootTable:"",VillagerData:{level:99,profession:"minecraft:armorer",type:"minecraft:plains"},Tags:["nokres_mob"]}
+summon minecraft:villager 276 53 -32 {Attributes:[{Name:"generic.knockback_resistance",Base:1f},{Name:"generic.movement_speed",Base:0.0f}],Silent:1,DeathLootTable:"",VillagerData:{level:99,profession:"minecraft:librarian",type:"minecraft:plains"},Tags:["nokres_mob"]}
+summon minecraft:villager 277 53 -31 {Attributes:[{Name:"generic.knockback_resistance",Base:1f},{Name:"generic.movement_speed",Base:0.0f}],Silent:1,DeathLootTable:"",VillagerData:{level:99,profession:"minecraft:librarian",type:"minecraft:plains"},Tags:["nokres_mob"]}
