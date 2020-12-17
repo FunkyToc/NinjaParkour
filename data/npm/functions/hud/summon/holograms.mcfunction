@@ -204,7 +204,7 @@ execute positioned 211 54.25 5 run summon minecraft:area_effect_cloud ~ ~ ~ {Cus
 
 execute positioned 235 55 11 run summon minecraft:area_effect_cloud ~ ~ ~ {CustomName:'[{"translate":"guest.plot9.title","color":"gray","bold":true}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b,Duration:2147483647}
 execute positioned 235 54.5 11 run summon minecraft:area_effect_cloud ~ ~ ~ {CustomName:'[{"translate":"guest.global.by"},{"text":" "},{"text":"GeoCobra","color":"white"}]',Tags:["hud","loc","LOC_g9"],CustomNameVisible:0b,Invisible:1b,Marker:1b,Duration:2147483647}
-execute positioned 235 54.25 11 run summon minecraft:area_effect_cloud ~ ~ ~ {CustomName:'[{"text":"\\u2606\\u2606\\u2606\\u2606\\u2606","color":"gold"}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b,Duration:2147483647}
+execute positioned 235 54.25 11 run summon minecraft:area_effect_cloud ~ ~ ~ {CustomName:'[{"text":"\\u2605\\u2605\\u2605\\u2605\\u2606","color":"gold"}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b,Duration:2147483647}
 
 execute positioned 259 55 5 run summon minecraft:area_effect_cloud ~ ~ ~ {CustomName:'[{"translate":"guest.plot10.title","color":"gray","bold":true}]',Tags:["hud"],CustomNameVisible:0b,Invisible:1b,Marker:1b,Duration:2147483647}
 execute positioned 259 54.5 5 run summon minecraft:area_effect_cloud ~ ~ ~ {CustomName:'[{"translate":"guest.global.by"},{"text":" "},{"text":"Nokres","color":"white"}]',Tags:["hud","loc","LOC_g10"],CustomNameVisible:0b,Invisible:1b,Marker:1b,Duration:2147483647}
