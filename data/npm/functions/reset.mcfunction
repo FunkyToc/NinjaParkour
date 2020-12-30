@@ -2,6 +2,7 @@ tag @s remove NPM_access_tuto
 tag @s remove NPM_access_classic
 tag @s remove NPM_access_guest
 tag @s remove builder
+tag @s remove youtuber
 
 scoreboard players set @s npc_funkyfox 1
 function npm:score/reset

@@ -1,11 +1,11 @@
 tp @s 8.5 54.5 8.5
-spawnpoint @s ~ ~-1 ~
+spawnpoint @s 8 54 8
 gamemode adventure @s
+
 function npm:loc/reset
 function npm:timer/reset
 function npm:score/reset
 function npm:schedule/actionbar
-tag @s add ninja
 
 scoreboard players set @s NPM_CheckpX 8
 scoreboard players set @s NPM_CheckpY 53
@@ -28,3 +28,5 @@ stopsound @a master minecraft:music.actinup
 playsound music.actinup master @a ~ ~ ~ .6 1 1
 schedule function npm:cosmetic/johncena 44t
 tellraw @a [{"translate":"global.newchallenger"},{"text":" "},{"selector":"@s","color":"gold","bold":true},{"text":" "},{"translate":"global.ishere"}]
+
+tag @s add ninja
