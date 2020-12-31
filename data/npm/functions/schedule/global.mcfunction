@@ -22,6 +22,7 @@ execute as @a[scores={Death=1..}] run function npm:score/stats/deadninja
 
 # tag builder
 execute if score ENV NPM_Option matches 2 run function npm:builder/tag
+execute if score ENV NPM_Option matches 1 run tag @a remove builder
 
 # hide hologram
 execute as @e[tag=hud] at @s unless entity @p[distance=..8] run data merge entity @s {CustomNameVisible:0b}

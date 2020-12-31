@@ -79,8 +79,6 @@ scoreboard players set #5 NPM_Timer 5
 scoreboard players set #20 NPM_Timer 20
 scoreboard players set #1200 NPM_Timer 1200
 
-scoreboard players set NoCheat NPM_Option 1
-
 team add Top1 {"text":"Top1","bold":true}
 team modify Top1 color white
 team modify Top1 prefix {"text":" [Top1] ","color":"#FFB900","bold":true}
